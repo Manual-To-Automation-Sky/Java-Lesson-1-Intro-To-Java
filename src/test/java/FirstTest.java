@@ -16,7 +16,7 @@ public class FirstTest {
         usernameElement.sendKeys("gary.b+demo@browserstack.com");
 
         WebElement passwordElement = driver.findElement(By.cssSelector("#user_password"));
-        passwordElement.sendKeys("Nathan65ctu!!");
+        passwordElement.sendKeys("");
 
         WebElement submitButtonElement = driver.findElement(By.cssSelector("#user_submit"));
         submitButtonElement.click();
